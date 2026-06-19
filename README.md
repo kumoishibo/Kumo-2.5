@@ -113,6 +113,7 @@ Kumo Frame CNC cut on Millennium Mill
 ## Authors
 The Kumo project was designed and contributed by:
 - [Kumoi](https://github.com/kumoishibo): primary designer
+- [Auburn](https://github.com/Auburn): Slim 3D print version & design contributions to main
 ## Versions
 For a list of past created iterations, here is a [Google sheet of various versions with specs, components and photos](https://docs.google.com/spreadsheets/d/1-7FYr2rQ0BzAxG1OKXEforiyXhu9mfht/edit?usp=sharing&ouid=105765567366009761045&rtpof=true&sd=true)
 List of file versions in repo:
@@ -124,6 +125,7 @@ List of file versions in repo:
 	- Kumo ChunkyFrog (more material, more cutouts, poor access to usb port)
 	- Kumo Offaxis (interesting attempt to merge top/bottom plate with flipped parts. Too heavy, poor skeletonization, no top/bottom usb access, no battery strap)
 ## Changelog
+- 6-19-2026: Additions of new slim 3D printable versions by [Auburn](https://github.com/Auburn) 
 - 5-21-2026: Added Git Discussion, fixed M2 clearance on bottom AIO hole (Thank you Auburn!)
 - 5-19-2026: Completed Documentation V1 and published to Reddit
 - 5-5-2026: CNC cut stubby frame (youtube video above)
