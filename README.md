@@ -1,13 +1,13 @@
 <div align="center"><img src="https://github.com/kumoishibo/Kumo-2.5/blob/main/Images/KumoLogo.png?raw=true" width=30% alt="Kumo Logo" ></div>
 
 # Kumo 2.5
-A 2.5" drone frame. Star shaped dual arm design available both in printable and carbon fiber cut files in [[STL]] and [[CAD]] formats.
+A 2.5" drone frame. Star shaped dual arm design available both in printable and carbon fiber cut files in [STL](STL/) and [CAD](CAD/) formats.
 
-This project was born out of the desire for building a robust freestyle 2.5" 2S quad built from the ground up around the HDZero AIO15 and Lux camera. Something with a bit more power and wind resilience than a whoop, but still relatively quiet and survivable to crashes. Some of the mono-body frames seem to have lightweight arms that are a bit flimsy, thus the star shape was opted in the newer versions of the Kumo frame. 
+This project was born out of the desire for building a robust freestyle 2.5" 2S quad. Something with a bit more power and wind resilience than a whoop, but still relatively quiet and durable against crashes. Some of the mono-body frames seem to have lightweight arms that are a bit flimsy, thus the star shape was opted in the newer versions of the Kumo frame. 
 
 My vision for this project was to create an open-source frame design that could be iterated and shared with accessible options. 
 
-![](Images/KumoBuilds.png)
+![](Images/Kumo-Beta+TrueX.jpg)
 
 ## Contents
 
@@ -31,17 +31,14 @@ My vision for this project was to create an open-source frame design that could 
 ## Design
 
 ### Frame Design
-Cutout for HDZero AIO15 to reduce height while also keeping ports accessible.
-![](Images/HDZeroAIO15_Cutout.jpg)
 
-Squished X geometry set at just under 85deg between front/back. Reduces prop in frame, however roll vs pitch movement requires less inertia due to weight distribution along Y axis.
-![](Images/SquishedXFrame.png)
+
 #### Slam Deck and Center of gravity
 Keeping the center of gravity low with 8-12mm standoffs helps reduce effort in flips. Sweet spot for avoiding battery strikes with props sits around 10-11mm standoff while also providing plenty of room for wire routing. For a tighter fit, 8-9mm standoffs can be used. Photo below is of 11mm standoff.
 ![](Images/Center%20of%20Gravity.png)
 ### Camera mount
-Designed with compatibility in mind with camera mounts from [Kayoumini](https://www.printables.com/model/1330393-kayoumini-camera-tpu-print-support) This sample mount for HDZero Lux at 35 degrees offers a balance between racing and freestyle. Print in TPU to dampen vibrations and soften impacts.
-![](Images/35degLUX_mount.png)
+Designed with compatibility in mind with camera mounts from [Kayoumini](https://www.printables.com/model/1330393-kayoumini-camera-tpu-print-support) This mount for HDZero Lux at 25 degrees includes an added bottom lip to help keep it centered. Print in TPU to dampen vibrations and soften impacts.
+![](Images/25degLuxMount-Beta.png)
 ### Printed frame vs Carbon Fiber
 Original test builds used a variety of 3D printed versions yielding varying stiffness and weight. 
 Thickened printed version in PETG-CF to increase stiffness and improve impact resilience. In this version I was still using the stick antenna from BetaFPV
@@ -52,18 +49,7 @@ Stubby version of frame cut from 2.5mm Carbon Fiber with RHCP antenna for improv
 
 Noise comparison between tunes of 3D printed (blue) and Carbon Fiber (red) variants of frame. The CF frame seemed to produce close to 10dB less noise thus requiring much less filtering  to improve responsiveness.
 ![](Images/PETG-CF%20vs%20CarbonFiber.png)
-### Stubby vs Sharp
-I created a light weight version of the frame for increased agility (and likely more fragile) stubby version weighing in at 10g for the base. Cut from 2.5mm thick CF 6K 2x2 Twill weave
-![](Images/StubbyFrame2.5mm.jpg)
 
-And a heavier 3.4mm carbon (was listed as 3.1) cut from 6K 2x2 Twill weave. Added protrusion to add material in front of motor. Designed for more aggressive bashing, but adds 4.4g to previous design.
-![](Images/SharpFrame3.4mm.jpg)
-
-TPU plus CF stubby, top plate, standoffs and main screws comes in at 17.5g
-![](Images/CarbonAndTPU.jpg)
-
-Top plate cut from 1.5mm CF 6k 2x2 twill. Designed with cut out towards the front for battery lead and extension on the back for battery deck/attachment for antenna.
-![](Images/TopPlate.jpg)
 
 ## Recommended-Setup
 
@@ -100,16 +86,8 @@ Resulting first harmonics were still present, with **Roll** requiring a bit more
 ![](Images/NoiseFiltering.png)
 ## Videos
 
-Kumo Frame analysis for stress concentration: (front impact)
-![](Images/StarFrameAnalysis.gif)
+https://www.youtube.com/watch?v=yigupcZ6LEk
 
-Kumo Frame printed first flight
-
-[![First Flight of 3D print|697](http://img.youtube.com/vi/SoQ7cqYJ5XA/0.jpg)](http://www.youtube.com/watch?v=SoQ7cqYJ5XA)
-
-Kumo Frame CNC cut on Millennium Mill
-
-[![CNC Cut Stubby|697](http://img.youtube.com/vi/ESLiF3WcUNc/0.jpg)](http://www.youtube.com/watch?v=ESLiF3WcUNc)
 ## Authors
 The Kumo project was designed and contributed by:
 - [Kumoi](https://github.com/kumoishibo): primary designer
@@ -129,6 +107,7 @@ List of file versions in repo:
 	- Kumo ChunkyFrog (more material, more cutouts, poor access to usb port)
 	- Kumo Offaxis (interesting attempt to merge top/bottom plate with flipped parts. Too heavy, poor skeletonization, no top/bottom usb access, no battery strap)
 ## Changelog
+- 11-23-2026: Archived old versions of Kumo and promoted Beta version to current. Reorganized folder structure to improve navigation.
 - 9-12-2026: Added TrueX version of Kumo
 - 6-19-2026: Additions of new slim 3D printable versions by [Auburn](https://github.com/Auburn) 
 - 5-21-2026: Added Git Discussion, fixed M2 clearance on bottom AIO hole (Thank you Auburn!)
