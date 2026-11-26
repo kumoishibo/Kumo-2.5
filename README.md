@@ -1,4 +1,4 @@
-<div align="center"><img src="https://github.com/kumoishibo/Kumo-2.5/blob/main/Images/KumoLogo.png?raw=true" width=30% alt="Kumo Logo" ></div>
+<div align="center"><img src="https://github.com/kumoishibo/Kumo-2.5/blob/main/Images/StampLogo.png?raw=true" width=30% alt="Kumo Logo" ></div>
 
 # Kumo 2.5
 A 2.5" drone frame. Star shaped dual arm design available both in printable and carbon fiber cut files in [STL](STL/) and [CAD](CAD/) formats.
@@ -98,11 +98,12 @@ Special thanks to the test pilots who helped :
 ## Versions
 For a list of past created iterations, here is a [Google sheet of various versions with specs, components and photos](https://docs.google.com/spreadsheets/d/1-7FYr2rQ0BzAxG1OKXEforiyXhu9mfht/edit?usp=sharing&ouid=105765567366009761045&rtpof=true&sd=true)
 List of file versions in repo:
-- Kumo Main Version (Sharp version) 
-- Kumo Slim (less material, more fragile)
-- Kumo Stubby (similar to sharp version with stubby motor mount)
+- Kumo Beta (latest version compatible with Freestyle and Racing)
 - Kumo TrueX (carbon perfectly aligned with limbs)
 - Outdated versions (single arm design):
+	- Kumo Alpha
+	- Kumo Slim (less material, more fragile)
+	- Kumo Stubby (similar to sharp version with stubby motor mount)
 	- Kumo Frog (quite heavy and poorly designed skeletonized parts)
 	- Kumo ChunkyFrog (more material, more cutouts, poor access to usb port)
 	- Kumo Offaxis (interesting attempt to merge top/bottom plate with flipped parts. Too heavy, poor skeletonization, no top/bottom usb access, no battery strap)
