@@ -35,8 +35,7 @@ With a total of 8 limbs, the name Kumo/くも (Spider in Japanese) came to mind.
 ### Frame Design
 The objective of the dual arm 'A' frame helps distribute the load and brace against impacts and avoid stress concentrations. At the cost of weight and carbon alignment, the hollowed out A frame aims to allow low profile builds such as analog and HDZero AIO, or taller double stack digital builds. 
 
-![](Kumo_BetaDrawing.png)
-
+![](Images/Kumo_BetaDrawing.png)
 ### Freestyle vs Racing configuration
 By using a standard 25.5mm camera canopy to sit on the AIO, the platform can be turned to a racing configuration with a cutout on the main plate for a battery strap or re-purpose the standoff holes for mounting a slide in battery bay.
 
