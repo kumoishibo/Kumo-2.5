@@ -1,9 +1,9 @@
-<div align="center"><img src="https://github.com/kumoishibo/Kumo-2.5/blob/main/Images/StampLogo.png?raw=true" width=30% alt="Kumo Logo" ></div>
+<div align="center"><img src="https://github.com/kumoishibo/Kumo-2.5/blob/main/Images/StampLogo.png?raw=true" width=20% alt="Kumo Logo" ></div>
 
 # Kumo 2.5
 A 2.5" drone frame. Star shaped dual arm design available both in printable and carbon fiber cut files in [STL](STL/) and [CAD](CAD/) formats.
 
-This project was born out of the desire for building a robust freestyle 2.5" 2S quad. Something with a bit more power and wind resilience than a whoop, but still relatively quiet and durable against crashes. Some of the mono-body frames seem to have lightweight arms that are a bit flimsy, thus the star shape was opted in the newer versions of the Kumo frame. 
+This project was born out of the desire for building a robust freestyle 2.5" 2S quad. Something with a bit more power and wind resilience than a whoop, but still relatively quiet and durable against crashes. Since breaking an arm on a mono-body frame, would require a completely new base plate, I opted for an A frame limb which led to this star shape. 
 
 My vision for this project was to create an open-source frame design that could be iterated and shared with accessible options. 
 
@@ -30,10 +30,18 @@ My vision for this project was to create an open-source frame design that could 
 - Camera mount designed for 25/35deg HDZero Lux. Also compatible with the [Kayoumini camera mounts ](https://www.printables.com/model/1330393-kayoumini-camera-tpu-print-support)
 ## Design
 
+### Name
+With a total of 8 limbs, the name Kumo/くも (Spider in Japanese) came to mind.
 ### Frame Design
+The objective of the dual arm 'A' frame helps distribute the load and brace against impacts and avoid stress concentrations. At the cost of weight and carbon alignment, the hollowed out A frame aims to allow low profile builds such as analog and HDZero AIO, or taller double stack digital builds. 
 
+![[Kumo_BetaDrawing.png]]
 
-#### Slam Deck and Center of gravity
+### Freestyle vs Racing configuration
+By using a standard 25.5mm camera canopy to sit on the AIO, the platform can be turned to a racing configuration with a cutout on the main plate for a battery strap or re-purpose the standoff holes for mounting a slide in battery bay.
+
+![[Racing Vs Standard.jpg]]
+### Slam Deck and Center of gravity
 Keeping the center of gravity low with 8-12mm standoffs helps reduce effort in flips. Sweet spot for avoiding battery strikes with props sits around 10-11mm standoff while also providing plenty of room for wire routing. For a tighter fit, 8-9mm standoffs can be used. Photo below is of 11mm standoff.
 ![](Images/Center%20of%20Gravity.png)
 ### Camera mount
@@ -121,4 +129,4 @@ List of file versions in repo:
 - 4-6-2026: Camera mount complete
 - 3-28-2026: Experimenting with [Flipped Z design](/CAD/OutdatedDesigns/Frog_MainBody.step)
 - 3-27-2026: Stress tests for impact yields concerns with single arm design![](Images/FrogFrameAnalysis%20v7.gif)
-- 3-25-2026: First version of Kumo frame  designed (looks like a squished frog)
+- 3-25-2026: First version of the frame (looks like a squished frog)
