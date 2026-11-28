@@ -12,12 +12,13 @@ My vision for this project was to create an open-source frame design that could 
 
 1. [Elements](#elements)
 2. [Design](#design)
-3. [Recommended Setup](#recommended-setup)
-4. [Tune](#Tune)
-5. [Videos](#Videos)
-6. [Authors](#Authors)
-7. [Versions](#Versions)
-8. [Changelog](#Changelog)
+3. [3D_Print_Parts_Accessories](3D_Print_Parts_Accessories.md)
+4. [Recommended Setup](#recommended-setup)
+5. [Tune](#Tune)
+6. [Videos](#Videos)
+7. [Authors](#Authors)
+8. [Versions](#Versions)
+9. [Changelog](#Changelog)
 
 ## Elements
 
@@ -55,8 +56,7 @@ Noise comparison between tunes of 3D printed (blue) and Carbon Fiber (red) varia
 
 Carbon Fiber Frame base 3mm vs 2.5mm weight:
 ![](Images/BaseFrameWeight.jpg)
-
-## [3D Print Parts & Accessories](3D_Print_Parts_Accessories)
+## [3D_Print_Parts_Accessories](3D_Print_Parts_Accessories.md)
 
 ## Recommended-Setup
 
