@@ -7,8 +7,7 @@ This project was born out of the desire for building a robust freestyle 2.5" 2S 
 
 My vision for this project was to create an open-source frame design that could be iterated and shared with accessible options. 
 
-![](Images/Kumo-Beta+TrueX.jpg)
-
+![](Images/FreestyleVsRaceMode.jpg)
 ## Contents
 
 1. [Elements](#elements)
@@ -29,7 +28,7 @@ My vision for this project was to create an open-source frame design that could 
 - Rigid Design
 - Camera mount designed for 25/35deg HDZero Lux. Also compatible with the [Kayoumini camera mounts ](https://www.printables.com/model/1330393-kayoumini-camera-tpu-print-support)
 ## Design
-
+![](Images/Kumo-Beta.png)
 ### Name
 With a total of 8 limbs, the name Kumo/くも (Spider in Japanese) came to mind.
 ### Frame Design
@@ -38,14 +37,11 @@ The objective of the dual arm 'A' frame helps distribute the load and brace agai
 ![](Images/Kumo_BetaDrawing.png)
 ### Freestyle vs Racing configuration
 By using a standard 25.5mm camera canopy to sit on the AIO, the platform can be turned to a racing configuration with a cutout on the main plate for a battery strap or re-purpose the standoff holes for mounting a slide in battery bay.
+![](Images/FreestyleVsRacingWeight.jpg)
 
-![](Images/RacingVsStandard.jpg)
 ### Slam Deck and Center of gravity
 Keeping the center of gravity low with 8-12mm standoffs helps reduce effort in flips. Sweet spot for avoiding battery strikes with props sits around 10-11mm standoff while also providing plenty of room for wire routing. For a tighter fit, 8-9mm standoffs can be used. Photo below is of 11mm standoff.
 ![](Images/Center%20of%20Gravity.png)
-### Camera mount
-Designed with compatibility in mind with camera mounts from [Kayoumini](https://www.printables.com/model/1330393-kayoumini-camera-tpu-print-support) This mount for HDZero Lux at 25 degrees includes an added bottom lip to help keep it centered. Print in TPU to dampen vibrations and soften impacts.
-![](Images/25degLuxMount-Beta.png)
 ### Printed frame vs Carbon Fiber
 Original test builds used a variety of 3D printed versions yielding varying stiffness and weight. 
 Thickened printed version in PETG-CF to increase stiffness and improve impact resilience. In this version I was still using the stick antenna from BetaFPV
@@ -57,6 +53,10 @@ Stubby version of frame cut from 2.5mm Carbon Fiber with RHCP antenna for improv
 Noise comparison between tunes of 3D printed (blue) and Carbon Fiber (red) variants of frame. The CF frame seemed to produce close to 10dB less noise thus requiring much less filtering  to improve responsiveness.
 ![](Images/PETG-CF%20vs%20CarbonFiber.png)
 
+Carbon Fiber Frame base 3mm vs 2.5mm weight:
+![](Images/BaseFrameWeight.jpg)
+
+## [3D Print Parts & Accessories](3D_Print_Parts_Accessories)
 
 ## Recommended-Setup
 
@@ -64,17 +64,17 @@ Noise comparison between tunes of 3D printed (blue) and Carbon Fiber (red) varia
 > *At this size, every gram counts, so tradeoffs must be made to manage durability, range, battery/flight time and flight dynamics.* 
 
 Key considerations for building: 
-1. **Weight** of components: Antenna type, TPU mounts and motor guards, battery size. My goa was to have a dry weight under 70g and an AUW of under 100g. For this I found the stubby frame at 2.5mm thick with a circular polarized antenna provided a decent compromise in weight, range, signal quality. For a more racing style setup, I tested the Twiglet frame that allowed me to get as low as 50g using 12025 11000kv motors
-2. **Power**: For motor and battery size considerations, I found the HDZero 15A felt solid with 2S in terms of maneuverability. 3S seemed to add quite a bit of weight which required much more throttle to power through sharp corners. With the 2S battery, finding a balance between 8000-11000kv would likely be ideal. I opted for heavier 1104 7500kv which added 4g, but gave me a bit more control with 2" pitch props over 12025 11000kv. That being said, the 12025 felt faster and twitchier, which may be preferable for pilots with better reaction time.
+1. **Weight** of components: Antenna type, TPU mounts and motor guards, battery size. My goal was to have a dry weight under 70g and an AUW of under 100g. I was able to get the build under 60g by using the 2.5mm thick frame with a dipole antenna.
+2. **Power**: For motor and battery size considerations, I found the HDZero 15A felt solid with 2S in terms of maneuverability. 3S seemed to add quite a bit of weight which required much more throttle to power through sharp corners. With the 2S battery, finding a balance between 8000-11000kv would likely be ideal. I tried the T-Hobby 1104 7500kv which added 4g, but gave me a bit more control with over 12025 11000kv which felt faster but twitchier. I settled for Sparkhobby 1103 at 8500kv
 3. **Props**: I tested with GF 2520, 2540 and AVAN Rush (1.9" pitch). By performance, it felt like the Gemfan 2520 yielded the best performance and was less noisy than the AVAN rush. As nice as the AVAN rush felt, it had a high pitched scream that was somewhat unpleasant (and may be a nuisance around others). The GF2540 was explosive in power and worked well with the 1104 motors, but seemed better suited for racing and higher speed lines.
 4. **Antenna**: The default stick antenna that comes with the HDZero AIO15 caused a bunch of problems and no matter where I placed the antenna, I always seemed to struggle with noise and range issues. Opting for a circular polarized antenna that I could push further away from the body seemed to help quite a bit in transmission quality during punch-outs. I had tried other stick antennas such as a BetaFPV linear antenna for Air75, but performance still seemed quite bad. ![](Images/Antenna.png)
 5. **Accessories**: The HDZero AIO15 does not come with a blackbox, which means if you wish to tune, you will need to attach an external recorder. I used a Flywoo OpenLager, which helped narrow down on some of the noise and responsiveness to cut down on propwash. I also added a simple buzzer as this tiny thing is super easy to lose. Adding 1g worth of wire/buzzer/ziptie is totally worth it in my book.
 ### Example build:
 - HDZero AIO15 + Lux camera
-- T-motor 1104 7500kv
+- Sparkhobby 1103 8500kv
 - Gemfan Hurricane 2520
-- Newbeedrone RHCP Honey Dipper Antenna
-- 2S battery (450-580mAh)
+- Stick dipole antenna or Newbeedrone RHCP Honey Dipper Antenna
+- 2S battery (380-580mAh)
 - Active Buzzer and Flywoo OpenLager blackbox
 ## Tune
 Betaflight defaults were fairly decent for me, but minor tweaks have helped improve propwash. Carbon fiber frame also was less susceptible to vibrations and required less filters.
@@ -106,7 +106,7 @@ Special thanks to the test pilots who helped :
 For a list of past created iterations, here is a [Google sheet of various versions with specs, components and photos](https://docs.google.com/spreadsheets/d/1-7FYr2rQ0BzAxG1OKXEforiyXhu9mfht/edit?usp=sharing&ouid=105765567366009761045&rtpof=true&sd=true)
 List of file versions in repo:
 - Kumo Beta (latest version compatible with Freestyle and Racing)
-- Kumo TrueX (carbon perfectly aligned with limbs)
+- Kumo TrueX (Experimental carbon perfectly aligned with limbs)
 - Outdated versions (single arm design):
 	- Kumo Alpha
 	- Kumo Slim (less material, more fragile)
